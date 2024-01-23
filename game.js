@@ -46,10 +46,10 @@ function preload() {
 
 function create() {
 
-    this.player = this.matter.add.image(100, 300, 'block');
-    this.player = this.matter.add.image(200, 200, 'block');
-    this.player = this.matter.add.image(350, 600, 'block');
-    this.player = this.matter.add.image(410, 310, 'block');
+    this.matter.add.image(100, 300, 'block');
+    this.matter.add.image(200, 200, 'block');
+    this.matter.add.image(350, 600, 'block');
+    this.matter.add.image(410, 310, 'block');
 
     this.player = this.matter.add.image(100, 100, 'ball');
 
